@@ -34,8 +34,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   filler: Colors.green,
                   onPressed: () {}),
               SizedBox(
-                height: 22,
+                height: 24,
               ),
+
               OutlineButtonRevamp(
                   text: 'Sign Up',
                   horizontalPadding: 20,
