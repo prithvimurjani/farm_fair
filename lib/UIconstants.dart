@@ -16,20 +16,20 @@ class OutlineButtonRevamp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
-      splashColor: Colors.green,
-      hoverColor: Colors.green,
+      splashColor: Color(0xFF185EC7),
+      hoverColor: Color(0xFF185EC7),
       padding: EdgeInsets.symmetric(
           horizontal: horizontalPadding, vertical: verticalPadding),
       color: filler,
       shape: RoundedRectangleBorder(
         side: BorderSide(
-            color: Colors.green, width: 3.0, style: BorderStyle.solid),
+            color: Color(0xFF185EC7), width: 2.0, style: BorderStyle.solid),
         borderRadius: BorderRadius.circular(5.0),
       ),
       child: Text(
         text,
         style: TextStyle(
-            color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+            color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
       ),
       onPressed: onPressed,
     );
